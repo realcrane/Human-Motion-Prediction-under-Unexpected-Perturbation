@@ -14,8 +14,6 @@ class IPM3D_sgl:
                  iniSt, maxRod, minRod, ini_h_st, ini_c_st, iniStDot, outFs, device='cpu'):
         #We assume that the input force governs the motion during its duration D frames. This means that the the net force equals
         #the input force during the first D frames, and then equals f_self + friction after D frames.
-        #As the input force is given, we assume that we know the ground truth of the IPM motion in the first D frames.
-        #We just use the data including the IPM motion after the Dth frame to train the Differentiable IPM.
 
         self.modelFsnn = modelFsnn.to(device)
         self.modelRod = modelRod.to(device)
