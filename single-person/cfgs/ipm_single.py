@@ -42,8 +42,8 @@ def parse_args():
     parser.add_argument('--maxRod', default=1.075)
 
     #load
-    parser.add_argument('--modelFsnnPath', default='/models/used_models/modelFsnn.pt')
-    parser.add_argument('--modelRodPath', default='/models/used_models/modelRod.pt')
+    parser.add_argument('--modelFsnnPath', default='/models/trainedModels/modelFsnn.pt')
+    parser.add_argument('--modelRodPath', default='/models/trainedModels/modelRod.pt')
 
 
 
