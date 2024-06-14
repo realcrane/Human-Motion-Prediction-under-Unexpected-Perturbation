@@ -1,6 +1,3 @@
-# Human-Motion-Prediction-under-Unexpected-Perturbation
-Our CVPR 2024 paper 'Human Motion Prediction under Unexpected Perturbation'
-
 # [Human Motion Prediction under Unexpected Perturbation](https://openaccess.thecvf.com/content/CVPR2024/papers/Yue_Human_Motion_Prediction_Under_Unexpected_Perturbation_CVPR_2024_paper.pdf)
 ![](https://github.com/realcrane/Human-Motion-Prediction-under-Unexpected-Perturbation/blob/main/images/model.png)
 
