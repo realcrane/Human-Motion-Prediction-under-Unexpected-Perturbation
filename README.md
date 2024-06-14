@@ -7,10 +7,10 @@ We investigate a new task in human motion prediction, which is predicting motion
 ### Dependencies
 Below is the key environment with the recommended version under which the code was developed:  
   
- 1 Python 3.8
- 2 torch 2.0.0  
- 3 numpy 1.22.3
- 4 scipy 1.7.3
+ 1 Python 3.8 \\
+ 2 torch 2.0.0 \\
+ 3 numpy 1.22.3 \\
+ 4 scipy 1.7.3 \\
  5 Cuda 11.1  
 
 ### Training
