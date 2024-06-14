@@ -7,11 +7,7 @@ We investigate a new task in human motion prediction, which is predicting motion
 ### Dependencies
 Below is the key environment with the recommended version under which the code was developed:  
   
- -1 Python 3.8
- -2 torch 2.0.0
- -3 numpy 1.22.3
- -4 scipy 1.7.3
- -5 Cuda 11.1  
+ Python 3.8; torch 2.0.0; numpy 1.22.3; scipy 1.7.3; Cuda 11.1  
 
 ### Training
 The differentiable IPM can be trained by using the training script in single-person/multi-people. The CVAEs and Samplers in the skeleton restoration model can be trained by using their corresponding training scripts in single-person-motion/multi-people-motion. The code is being optimized for improved readability and usability.
